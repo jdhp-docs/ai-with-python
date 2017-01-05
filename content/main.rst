@@ -49,6 +49,25 @@ Lasagne
 
 - http://lasagne.readthedocs.io/en/latest/
 
+MILK
+----
+
+- Utilisé par pylearn2 pour K-means
+- https://pythonhosted.org/milk/
+- Source code: https://github.com/luispedro/milk/
+- Development status: stopped ? (no commit in 2016)
+
+Features:
+
+- LASSO
+- Random forests
+- Self organising maps
+- SVMs (using the libsvm solver with a pythonesque wrapper around it)
+- Stepwise Discriminant Analysis for feature selection
+- Non-negative matrix factorisation
+- K-means using as little memory as possible
+- Affinity propagation
+
 See also
 --------
 
