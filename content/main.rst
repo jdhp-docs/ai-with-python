@@ -112,6 +112,78 @@ Features:
 - K-means using as little memory as possible
 - Affinity propagation
 
+See also
+--------
+
+- http://deeplearning.net/software_links/
+- https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software
+- https://deeplearning4j.org/compare-dl4j-torch7-pylearn
+
+
+Machine Learning Benchmarks and Datasets
+========================================
+
+Reference datasets:
+
+- MNIST
+- CIFAR-10
+- CIFAR-100
+- SVHN
+
+Mathematical optimization
+=========================
+
+Scipy
+-----
+
+TODO
+
+CVXOPT
+------
+
+- Mathematical programming
+
+OpenCV
+------
+
+TODO
+
+Computer vision
+===============
+
+OpenCV
+------
+
+TODO
+
+Maths and useful tools
+======================
+
+Numpy
+-----
+
+TODO
+
+Scipy
+-----
+
+TODO
+
+Matplotlib
+----------
+
+TODO
+
+Sympy
+-----
+
+TODO
+
+Pandas
+------
+
+TODO
+
 Theano
 ------
 
@@ -140,21 +212,8 @@ referred by ML libraries.
 - Web site: http://deeplearning.net/software/theano/
 - Tutorial: http://www.deeplearning.net/software/theano/tutorial/index.html
 
-See also
---------
+MPI4PY
+------
 
-- http://deeplearning.net/software_links/
-- https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software
-- https://deeplearning4j.org/compare-dl4j-torch7-pylearn
-
-
-Machine Learning Benchmarks and Datasets
-========================================
-
-Reference datasets:
-
-- MNIST
-- CIFAR-10
-- CIFAR-100
-- SVHN
+- To use MPI with Python
 
