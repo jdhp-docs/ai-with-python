@@ -34,6 +34,51 @@ Pylearn2
 - Web site: http://deeplearning.net/software/pylearn2/
 - Source code: https://github.com/lisa-lab/pylearn2
 
+Quick and dirty bootstrap
+'''''''''''''''''''''''''
+
+Install dependencies::
+
+    conda install theano
+    conda install nose-parameterized
+    mkdir ~/pylearn2_data
+
+Set PYLEARN2_DATA_PATH in ~/.bash_profile (MacOS)::
+
+    export PYLEARN2_DATA_PATH="/Users/jdecock/pylearn2_data"
+    export PYLEARN2_VIEWER_COMMAND="open -Wn"
+
+Then run::
+
+    source ~/.bash_profile
+
+Install pylearn2 (see http://deeplearning.net/software/pylearn2/index.html#download-and-installation)::
+
+    mkdir -p ~/bin/
+    cd ~/bin/
+    git clone git://github.com/lisa-lab/pylearn2.git
+    cd pylearn2
+    python setup.py develop --user
+
+Run the first tutorial (see ~/bin/pylearn2/pylearn2/scripts/tutorials/grbm_smd/README):
+
+..code:: bash
+
+    # Download the CIFAR10 dataset
+    cd ~/bin/pylearn2/pylearn2/scripts/datasets
+    ./download_cifar10.sh
+    
+    # Make the dataset
+    cd ~/bin/pylearn2/pylearn2/scripts/tutorials/grbm_smd
+    python make_dataset.py
+    
+    # Train the model
+    ~/bin/pylearn2/pylearn2/scripts/train.py cifar_grbm_smd.yaml
+    
+    # Show results
+    ~/bin/pylearn2/pylearn2/scripts/show_weights.py cifar_grbm_smd.pkl
+    ~/bin/pylearn2/pylearn2/scripts/plot_monitor.py cifar_grbm_smd.pkl
+
 Blocks
 ------
 
