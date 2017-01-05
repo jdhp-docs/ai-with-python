@@ -6,8 +6,11 @@ Machine Learning frameworks
 Tensorflow
 ----------
 
+The opensource Google Brain library for Deeplearning.
+
 - Google
-- https://www.tensorflow.org/
+- Deeplearning
+- Web site: https://www.tensorflow.org/
 
 Scikit-learn
 ------------
@@ -20,11 +23,6 @@ SciPy
 
 - https://www.scipy.org/
 - My snippets: https://github.com/jeremiedecock/snippets/tree/master/python/scipy
-
-Theano
-------
-
-- http://deeplearning.net/software/theano/
  
 Pylearn2
 --------
@@ -60,9 +58,7 @@ Install pylearn2 (see http://deeplearning.net/software/pylearn2/index.html#downl
     cd pylearn2
     python setup.py develop --user
 
-Run the first tutorial (see ~/bin/pylearn2/pylearn2/scripts/tutorials/grbm_smd/README):
-
-..code:: bash
+Run the first tutorial (see ~/bin/pylearn2/pylearn2/scripts/tutorials/grbm_smd/README)::
 
     # Download the CIFAR10 dataset
     cd ~/bin/pylearn2/pylearn2/scripts/datasets
@@ -82,16 +78,19 @@ Run the first tutorial (see ~/bin/pylearn2/pylearn2/scripts/tutorials/grbm_smd/R
 Blocks
 ------
 
+- Deeplearning
 - http://blocks.readthedocs.io/en/latest/
 
 Keras
 -----
 
+- Deeplearning
 - https://keras.io/
 
 Lasagne
 -------
 
+- Deeplearning
 - http://lasagne.readthedocs.io/en/latest/
 
 MILK
@@ -113,10 +112,40 @@ Features:
 - K-means using as little memory as possible
 - Affinity propagation
 
+Theano
+------
+
+Theano a low level fast computation library between numpy and sympy that is
+often used by ML libraries (Pylearn2, Blocks, Keras, ...).
+It makes some linear algebra operation very quickly using GPU, dynamic C code
+generation, parallelization, ...
+
+It's not a ML library but it's useful to mention it here as it's very often
+referred by ML libraries.
+
+- Key features:
+
+  - Tight integration with NumPy – Use numpy.ndarray in Theano-compiled functions.
+  - Transparent use of a GPU – Perform data-intensive calculations up to 140x faster than with CPU.(float32 only)
+  - Efficient symbolic differentiation – Theano does your derivatives for function with one or many inputs.
+  - Speed and stability optimizations – Get the right answer for log(1+x) even when x is really tiny.
+  - Dynamic C code generation – Evaluate expressions faster.
+  - Extensive unit-testing and self-verification – Detect and diagnose many types of errors.
+
+- Theano definition:
+
+  - http://www.deeplearning.net/software/theano/introduction.html
+  - http://www.deeplearning.net/software/theano/
+
+- Web site: http://deeplearning.net/software/theano/
+- Tutorial: http://www.deeplearning.net/software/theano/tutorial/index.html
+
 See also
 --------
 
 - http://deeplearning.net/software_links/
+- https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software
+- https://deeplearning4j.org/compare-dl4j-torch7-pylearn
 
 
 Machine Learning Benchmarks and Datasets
