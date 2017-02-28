@@ -148,11 +148,21 @@ OpenCV
 
 TODO
 
-Computer vision
-===============
+Computer vision and image processing
+====================================
 
 OpenCV
 ------
+
+TODO
+
+PIL/Pillow
+----------
+
+TODO
+
+Scikit-image
+------------
 
 TODO
 
